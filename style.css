@@ -8,6 +8,11 @@
     --black: #303030;
 }
 
+@font-face {
+    font-family: "Sala de Fiestas";
+    src: url(assets/fonts/sala.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -143,6 +148,15 @@ header > div > div:nth-child(2) {
     justify-content: flex-end;
 }
 
+.header-row-one {
+    font-weight: 600;
+}
+
+.header-row-one img {
+    height: 40px;
+    width: 40px;
+}
+
 .buttons {
     display: flex;
     gap: 3%;
@@ -195,7 +209,6 @@ main {
     border-left: var(--light-orange) 6px solid;
 }
 
-
 .buttons-article {
     display: flex;
     justify-content: flex-end;
@@ -238,7 +251,6 @@ aside > div {
     border-bottom: 2px solid var(--break-gray);
     border-radius: 2px;
 }
-
 
 .people > div {
     display: grid;
